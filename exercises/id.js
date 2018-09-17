@@ -7,6 +7,10 @@
  */
 
 // Your code :
+const fruit = [5]
+function id (pouet){
+    return pouet
+}
 
 //* Begin of tests
 const assert = require('assert')
