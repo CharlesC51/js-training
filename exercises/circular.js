@@ -8,6 +8,16 @@
  */
 
 // Your code :
+const circular = "circular"
+
+circular = function(arg) {
+    if (arg) {
+      alert(arg);
+    }
+    else {
+      circular("No argument");
+    }
+  }
 
 //* Begin of tests
 const assert = require('assert')

@@ -8,6 +8,10 @@
 
 // Your code :
 
+function sub (n, b){
+    return n - b
+}
+
 //* Begin of tests
 const assert = require('assert')
 const rand = Math.random()
